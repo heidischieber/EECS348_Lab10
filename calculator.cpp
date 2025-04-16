@@ -162,7 +162,7 @@ int main(){
 
     std::vector<std::string> str_nums; //a vector of a vector of characters that will store the puzzle
     std::string line; //variable line ~ type: string
-
+    //for manipulation of file used past labs as reference 
     while (std::getline(file, line)) { // while loop to get each line from the file
         line.erase(std::remove(line.begin(), line.end(), '\n'), line.end()); // remove any trailing newline characters
         std::stringstream ss(line); // creates a stringstream of line called ss
